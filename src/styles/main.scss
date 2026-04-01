@@ -1248,18 +1248,21 @@ body {
   @media (max-width: 768px) {
     & {
       overflow-x: hidden;
+      touch-action: pan-y;
     }
 
     .hero-content {
       height: auto;
       overflow-y: visible;
       overflow-x: clip;
+      touch-action: pan-y;
     }
 
     .main-content {
       height: auto;
       overflow-y: visible;
       overflow-x: clip;
+      touch-action: pan-y;
     }
 
     .title-group {
@@ -1338,6 +1341,7 @@ body {
 
     .advantage-swiper {
       grid-row: 1;
+      touch-action: pan-x;
     }
 
     .advantage-visual {

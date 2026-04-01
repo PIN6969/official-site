@@ -24,7 +24,7 @@ const HTML_LANG = {
 
 export const messages = {
   'zh-TW': {
-    meta_title: '官方網站',
+    meta_title: 'GET榮耀娛樂',
     nav_menu_title: '選單',
     nav_products: '公司產品',
     nav_advantage: '包網優勢',
@@ -141,7 +141,7 @@ export const messages = {
     contact_submit: '送出',
   },
   'zh-CN': {
-    meta_title: '官方网站',
+    meta_title: 'GET榮耀娛樂',
     nav_menu_title: '菜单',
     nav_products: '公司产品',
     nav_advantage: '包网优势',
@@ -258,7 +258,7 @@ export const messages = {
     contact_submit: '提交',
   },
   en: {
-    meta_title: 'Official Website',
+    meta_title: 'GET',
     nav_menu_title: 'Menu',
     nav_products: 'Products',
     nav_advantage: 'White-Label Advantage',
@@ -376,7 +376,7 @@ export const messages = {
     contact_submit: 'Submit',
   },
   th: {
-    meta_title: 'เว็บไซต์ทางการ',
+    meta_title: 'GET',
     nav_menu_title: 'เมนู',
     nav_products: 'ผลิตภัณฑ์',
     nav_advantage: 'จุดแข็งแพลตฟอร์ม',
@@ -493,7 +493,7 @@ export const messages = {
     contact_submit: 'ส่ง',
   },
   vi: {
-    meta_title: 'Trang web chính thức',
+    meta_title: 'GET',
     nav_menu_title: 'Menu',
     nav_products: 'Sản phẩm',
     nav_advantage: 'Ưu điểm nền tảng',
