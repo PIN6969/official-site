@@ -156,6 +156,10 @@ if (advantageSwiper) {
     slidesPerGroup: 1,
     spaceBetween: 20,
     speed: 520,
+    /** 在可捲動頁面內：不攔截 touchstart，頁面才能正常上下滑；橫滑仍由 Swiper 處理 */
+    nested: true,
+    touchStartPreventDefault: false,
+    touchReleaseOnEdges: true,
     loop: true,
     autoplay: {
       delay: 3000,

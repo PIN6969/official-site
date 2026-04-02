@@ -1029,6 +1029,7 @@ body {
   scroll-margin-top: 80px;
   background: linear-gradient(180deg, #6e6e6e 0%, #343434 77%);
   color: #fff;
+  height: 100svh;
 
   &__text {
     padding-block: 0.5rem;
@@ -1050,8 +1051,8 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    overflow-y: visible;
-    overflow-x: clip;
+    min-height: 0;
+    overflow: visible;
   }
 
   .title-group {
@@ -1098,15 +1099,18 @@ body {
     gap: 24px;
     align-items: start;
     height: auto;
-    overflow-y: visible;
-    overflow-x: clip;
+    min-height: 0;
+    overflow: visible;
   }
   .advantage-cards {
     min-width: 0;
   }
   .advantage-swiper {
     width: 100%;
+    height: auto;
+    min-height: 0;
     overflow: hidden;
+    touch-action: pan-x pan-y;
   }
   .advantage-swiper swiper-slide {
     height: auto;
@@ -1248,21 +1252,16 @@ body {
   @media (max-width: 768px) {
     & {
       overflow-x: hidden;
-      touch-action: pan-y;
     }
 
     .hero-content {
-      height: auto;
-      overflow-y: visible;
-      overflow-x: clip;
-      touch-action: pan-y;
+      height: 100%;
+      overflow: visible;
     }
 
     .main-content {
-      height: auto;
-      overflow-y: visible;
-      overflow-x: clip;
-      touch-action: pan-y;
+      height: 100%;
+      overflow: visible;
     }
 
     .title-group {
@@ -1341,7 +1340,6 @@ body {
 
     .advantage-swiper {
       grid-row: 1;
-      touch-action: pan-x;
     }
 
     .advantage-visual {
